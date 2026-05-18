@@ -45,3 +45,21 @@ Successful orchestration of ingestion, dbt run, and dbt test workflows using Apa
 End-to-end analytics engineering workflow for GitHub data ingestion, transformation, orchestration, testing, and visualization.
 
 ![Architecture Diagram](screenshots/architecture_diagram.png)
+
+## Analytics Dashboard
+
+Built an interactive engineering analytics dashboard in Looker Studio connected to BigQuery to visualize repository productivity metrics, engineering activity insights, language distribution, and repository performance trends.
+
+### Dashboard Preview
+
+![Engineering Analytics Dashboard](screenshots/engineering_analytics_dashboard.png)
+
+### Dashboard Features
+- Repository productivity metrics and KPIs
+- Top GitHub repositories by stars
+- Repository language distribution analysis
+- Engineering repository performance tracking
+- Interactive filtering and analytics visualization
+
+### Tech Stack
+Python • BigQuery • dbt • Apache Airflow • Looker Studio
