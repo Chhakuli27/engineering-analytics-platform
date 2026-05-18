@@ -38,3 +38,10 @@ GitHub API → Python ETL → BigQuery → dbt Models & Tests → Airflow Orches
 Successful orchestration of ingestion, dbt run, and dbt test workflows using Apache Airflow.
 
 ![Airflow Pipeline](screenshots/airflow_pipeline_success.png)
+
+
+## Architecture Diagram
+
+End-to-end analytics engineering workflow for GitHub data ingestion, transformation, orchestration, testing, and visualization.
+
+![Architecture Diagram](screenshots/architecture_diagram.png)
