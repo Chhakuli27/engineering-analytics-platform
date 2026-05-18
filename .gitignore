@@ -220,3 +220,8 @@ __marimo__/
 credentials/
 venv/
 .env
+
+airflow/logs/
+airflow/airflow.db
+dbt_project/engineering_analytics_dbt/logs/
+dbt_project/engineering_analytics_dbt/target/

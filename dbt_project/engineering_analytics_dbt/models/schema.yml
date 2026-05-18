@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: top_repositories
+    description: "Analytics model for ranking Spotify GitHub repositories."
+
+    columns:
+      - name: repo_name
+        description: "Repository name"
+
+        tests:
+          - not_null
+
+      - name: stars
+        description: "Repository star count"
+
+        tests:
+          - not_null
